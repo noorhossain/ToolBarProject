@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/btnShowHide"
+        android:icon="@android:drawable/checkbox_on_background"
+        android:title="Book Open"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/btnEmptyCirle"
+        android:icon="@drawable/empty_circle"
+        android:title="Book Open"
+        app:showAsAction="always" />
+
+
+
+    <item
+        android:id="@+id/btnBook"
+        android:icon="@drawable/menu_book_24"
+        android:title="Book Open"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/btnSettings"
+        android:icon="@drawable/settings_24"
+        android:title="Settings"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/btnFontChange"
+                android:title="Font Change"
+                android:icon="@drawable/baseline_font_download_24"/>
+
+            <item
+                android:id="@+id/btnFontColor"
+                android:title="Font Color"
+                android:icon="@drawable/baseline_color_lens_24"/>
+
+            <item
+                android:id="@+id/btnFonSize"
+                android:title="Font Size"
+                android:icon="@drawable/baseline_format_size_24"/>
+
+
+        </menu>
+
+    </item>
+
+
+</menu>
